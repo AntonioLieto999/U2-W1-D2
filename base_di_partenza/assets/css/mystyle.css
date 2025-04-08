@@ -79,7 +79,7 @@ span img {
   margin-right: 20px;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 700px) {
   #psquare {
     bottom: 850px;
   }
