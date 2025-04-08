@@ -1,0 +1,89 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+section h2 {
+  width: 160px;
+  position: relative;
+  bottom: 40px;
+}
+section p {
+  margin-top: -2rem;
+}
+aside div {
+  position: relative;
+}
+#tagger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 3rem;
+  padding: 0.2rem;
+  color: grey;
+}
+
+#calendar {
+  position: fixed;
+  right: 2px;
+  background-color: rgb(255 255 255 / 67%);
+  padding: 1rem;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: blue;
+  bottom: 130px;
+}
+#psquare {
+  position: fixed;
+  right: 2px;
+  background-color: rgb(255 255 255 / 67%);
+  padding: 1rem;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: blue;
+  bottom: 200px;
+}
+#upsquare {
+  position: fixed;
+  right: 2px;
+  background-color: rgb(255 255 255 / 67%);
+  padding: 1rem;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #f7555d;
+  bottom: 60px;
+}
+body {
+  position: relative;
+}
+.icons {
+  float: right;
+}
+span {
+  position: relative;
+}
+span img {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 100%;
+}
+#imghtml {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  #psquare {
+    bottom: 850px;
+  }
+  #calendar {
+    bottom: 780px;
+  }
+}
